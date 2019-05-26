@@ -1,0 +1,7 @@
+{
+  "title"： "多语言",
+  "打开JOOX": "打开JOOX",
+  "下载JOOX": "下载JOOX",
+  "打开 {{name}}": "打开 {{name}}",
+  "userMessagesUnread": '哈喽 <1>{{name}}</1>, 你有 {{count}} 条未读信息。',
+}

@@ -1,0 +1,17 @@
+@import './_var.scss';
+@import './_mixin.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    @include setTapColor();
+}
+

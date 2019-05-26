@@ -1,0 +1,17 @@
+@import './reset.scss';
+
+html, body {
+    line-height: 1.6;
+    font-family: $bbmFontDefault;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: $pageBgColor;
+    color: $primaryWordColor;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-bottom: .88rem;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

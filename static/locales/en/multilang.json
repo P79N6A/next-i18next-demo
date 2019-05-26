@@ -1,0 +1,7 @@
+{
+  "title"： "multi lang",
+  "打开JOOX": "open JOOX",
+  "下载JOOX": "downlaod JOOX",
+  "打开 {{name}}": "open {{name}}",
+  "userMessagesUnread": 'Hello <1>{{name}}</1>, you have {{count}} unread message.',
+}

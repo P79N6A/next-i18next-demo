@@ -1,0 +1,27 @@
+@mixin sprite-background-position($map, $sprite, $offset-x, $offset-y, $fifth) {
+  $ypos: round(nth(sprite-position($map, $sprite), 2) / 2);
+  $width: round(image-width(sprite-path($map)) / 2);
+  $height: round(image-height(sprite-path($map)) / 2);
+
+  background-position: 0 ($ypos + 1);
+  background-size: $width $height;
+  height: sprite-height($map, $sprite) / 2+2 !important;
+  width: sprite-width($map, $sprite) / 2+1 !important;
+}
+
+@font-face {
+  font-family: "Zawgyi-One";
+  src: local("Zawgyi-One"),
+    url("//www.joox.com/static/fonts/zawgyi.woff") format("woff"),
+    url("//www.joox.com/static/fonts/zawgyi.ttf") format("ttf");
+}
+
+.my_mm body {
+  font-family: "Zawgyi-One" !important;
+}
+
+html,
+body {
+  font-family: "PingFangSC-Regular, sans-serif, Microsoft YaHei",
+    "Helvetica Neue", Helvetica, STHeiTi;
+}
